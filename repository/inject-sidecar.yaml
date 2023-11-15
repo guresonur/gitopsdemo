@@ -18,6 +18,9 @@ spec:
         resources:
           kinds:
             - Deployment
+            - Pod
+            - Statefulset
+            - Daemonset
           namespaces:
             - default
       mutate:
