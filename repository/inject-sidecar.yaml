@@ -19,7 +19,6 @@ spec:
           kinds:
             - Deployment
             - Pod
-            - Daemonset
           namespaces:
             - default
       mutate:
