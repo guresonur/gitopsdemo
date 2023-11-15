@@ -19,7 +19,6 @@ spec:
           kinds:
             - Deployment
             - Pod
-            - StatefulSet
             - Daemonset
           namespaces:
             - default
