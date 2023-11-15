@@ -20,6 +20,7 @@ spec:
             - Deployment
             - Pod
             - StatefulSet
+            - DaemonSet
           namespaces:
             - default
       mutate:
