@@ -18,6 +18,7 @@ spec:
         resources:
           kinds:
             - Deployment
+            - Pod
           namespaces:
             - default
       mutate:
