@@ -3,7 +3,7 @@ kind: Application
 metadata:
   name: parent-aoa
   namespace: argocd
-  spec:
+spec:
   destination:
     namespace: argocd
     server: https://kubernetes.default.svc
