@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: applicationsets2
+    path: applicationsets
     repoURL: https://github.com/guresonur/gitopsdemo.git
     targetRevision: HEAD
   syncPolicy:
