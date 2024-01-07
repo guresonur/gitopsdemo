@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: parent-aoa-v2
+  name: parent-aoa
   namespace: argocd
 spec:
   destination:
@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: applicationsets2
+    path: applicationsets
     repoURL: https://github.com/guresonur/gitopsdemo.git
     targetRevision: HEAD
   syncPolicy:
